@@ -1,3 +1,16 @@
+#Getting Started with the assesment 
+This code is hosted on Vercel App - https://spearmint-assesment.vercel.app/
+You can visit and check the functionality of the code.
+
+#Change theme-> 
+Click on the icon on top right of the landing page.
+
+#how to create a task -> 
+Click on Create Task Button
+One Form will appear from right. Fill the form and click create.
+The task is shown on the table in landing page.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
