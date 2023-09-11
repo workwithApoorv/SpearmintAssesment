@@ -88,3 +88,24 @@ ul[role="listbox"] {
   cursor: pointer;
   transform: translateY(0px);
 }
+
+.filter {
+  background-color: var(--lighttext);
+  border-radius: 1rem;
+  border: #352f44 solid 0.2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .screen-sm {
+    flex-direction: column;
+  }
+  .task-name {
+    max-height: 80%;
+  }
+  .form {
+    width: 100%;
+  }
+  .screen-767 {
+    max-width: 80%;
+  }
+}

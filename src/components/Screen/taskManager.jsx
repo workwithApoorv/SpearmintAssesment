@@ -32,7 +32,7 @@ const TaskManager = () => {
   return (
     <div className={bgtheme === "light" ? "screen" : "screen dark-bg"}>
       {showLoader && <CircularIndeterminate />}
-      <div className="d-flex align-items-center justify-content-center">
+      <div className="d-flex align-items-center justify-content-center screen-sm">
         <button
           className={`create-button my-4  ${
             bgtheme === "light" ? "" : "dark-btn"
@@ -42,12 +42,12 @@ const TaskManager = () => {
         >
           Create Task
         </button>
-        <div className="d-flex align-items-center">
+        <div className="d-flex align-items-center mx-2 screen-767 filter">
           <select
-            className={`form-select mx-2 ${
+            className={`form-select mx-2  ${
               bgtheme === "light" ? "" : "dark-btn"
             }`}
-            style={{ width: "20rem", height: "4rem" , borderRadius: "1rem" }}
+            style={{ width: "20rem", height: "4rem" , border: "none" }}
             aria-label="Default select example"
             value={filterName}
             onChange={(event) => setFilterName(event.target.value)}
